@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="app.css" rel="stylesheet">
+    <title>Nomenclador Pami</title>
+    <meta name="description" content="Bienvenidos a Nomenclador Pami">
+
+    <meta name="theme-color" content="#40E0D0">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" type="image/png" href="./logo.png">
+    <link rel="apple-touch-icon" href="./logo.png">
+    <link rel="apple-touch-startup-image" href="./logo.png">
+    <link rel="manifest" href="./manifest.json">
+</head>
+<body>
+    <div class="header">
+        <img src="./logo.png"alt="Logotipo" width="100" height="100" />
+        <h1 class="text-center">Nomenclador Pami</h1>
+        
+    </div>
+    
+    <hr>
+    <div class="my-5">
+
+        <input id="buscar" type="text" class="form-control" placeholder="Escriba algo para filtrar" />
+        <table class="table" id="tabla">
+            <thead>
+                <tr>
+                    <th scope="col">CODIGO</th>
+                    <th scope="col">DESCRIPCION</th>
+                </tr>
+            </thead>
+            <tbody id="items"></tbody>
+        </table>
+    </div>
+
+
+    <template id="template-tabla">
+        <tr>
+          
+          <td>Café</td>
+          <td>1</td>
+        </tr>
+    </template>
+    <script src="app.js"></script>
+</body>
+
+</html>
