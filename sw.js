@@ -6,7 +6,7 @@ const CACHE_NAME = 'v1_cache_Nomenclador_Pami',
     './index.html',
     './app.css',
     './app.js',
-    './nomenclador.js',
+    './nomenclador.json',
     './logo.png'
     
   ]
