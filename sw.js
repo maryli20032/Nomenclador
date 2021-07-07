@@ -2,7 +2,7 @@
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'v1_cache_Nomenclador_Pami',
   urlsToCache = [
-    './',
+    './index.html',
     './app.css',
     './app.js',
     './nomenclador.js',
