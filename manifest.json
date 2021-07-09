@@ -1,7 +1,7 @@
 {
-    "name": "#NomencladorPami",
-    "short_name": "#NomencladorPami",
-    "description": "Bienvenidos a #NomencladorPami, Espero te sirva",
+    "name": "Nomencladores y diagnosticos Pami",
+    "short_name": "Nomencladores y diagnosticos Pami",
+    "description": "Bienvenidos a Nomencladores y diagnosticos Pami, Espero te sirva",
     "background_color": "#2B2B2B",
     "theme_color": "#40E0D0",
     "orientation": "portrait",
